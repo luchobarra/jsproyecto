@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Ahorro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simulador de Ahorro</h1>
+        <p>Ingresa tus datos y observa cómo crece tu ahorro a lo largo del tiempo.</p>
+
+        <div class="input-group">
+            <label for="montoInicial">Monto inicial ($):</label>
+            <input type="number" id="montoInicial" placeholder="1000" />
+        </div>
+
+        <div class="input-group">
+            <label for="ahorroMensual">Ahorro mensual ($):</label>
+            <input type="number" id="ahorroMensual" placeholder="200" />
+        </div>
+
+        <div class="input-group">
+            <label for="meses">Meses de ahorro:</label>
+            <input type="number" id="meses" placeholder="12" />
+        </div>
+
+        <button onclick="simularAhorro()">Calcular Ahorro</button>
+        <div class="result" id="result">Revisa los resultados aquí.</div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
+
